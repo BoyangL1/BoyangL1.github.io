@@ -11,281 +11,226 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="site-header">
-      <a class="brand" href="#top" aria-label="Boyang Li home">Boyang Li</a>
-      <nav aria-label="Primary navigation">
-        <a href="#research">Research</a>
-        <a href="#education">Education</a>
-        <a href="#publications">Publications</a>
-        <a href="#awards">Awards</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
-
+    <a class="skip-link" href="#top">Skip to content</a>
     <main id="top">
-      <section class="hero" aria-labelledby="hero-title">
-        <div class="hero-visual" aria-hidden="true"></div>
-        <div class="hero-inner">
-          <div class="hero-copy">
-            <p class="eyebrow">Ph.D. Researcher · Human-Centered AI for Complex Systems</p>
-            <h1 id="hero-title">Spatial Intelligence, Urban AI, and Representation Learning</h1>
-            <p class="lead">
-              I study how humans and intelligent agents perceive, represent, reason, and decide
-              in spatial and urban environments.
-            </p>
-            <div class="hero-actions">
-              <a class="button primary" href="#research">Research Areas</a>
-              <a class="button secondary" href="Boyang_s_resume.pdf">Download CV</a>
+      <section class="profile" aria-labelledby="profile-title">
+        <div class="profile-header">
+          <img class="avatar-photo" src="assets/cv.png" width="250" height="250" alt="Boyang Li portrait" />
+          <div class="profile-identity">
+            <h1 id="profile-title">Boyang Li</h1>
+            <p>Ph.D. Researcher, New York University</p>
+            <p>Human-Centered Technology, Innovation &amp; Design</p>
+            <p><a href="https://www.takayabe.net/">RUN Lab</a></p>
+            <p><a href="mailto:boyang.li@nyu.edu">boyang.li@nyu.edu</a></p>
+            <div class="profile-links" aria-label="Profile links">
+              <a href="Boyang_s_resume.pdf">Curriculum Vitae</a>
+              <a href="https://github.com/BoyangL1">GitHub</a>
             </div>
           </div>
-          <aside class="profile-panel" aria-label="Profile summary">
-            <img class="avatar-photo" src="assets/cv.png" alt="Boyang Li portrait" />
-            <div>
-              <p class="profile-name">Boyang Li</p>
-              <p class="profile-role">New York University</p>
-              <p class="profile-meta">
-                <a href="https://www.takayabe.net/">RUN Lab</a> · Human-Centered Technology, Innovation & Design
-              </p>
-            </div>
-          </aside>
         </div>
-      </section>
-
-      <section class="section intro" aria-labelledby="intro-title">
-        <div>
-          <p class="section-kicker">Research Identity</p>
-          <h2 id="intro-title">At the intersection of spatial cognition, urban AI, representation learning, and collective behavior.</h2>
+        <div class="biography">
+          <p>
+            I study how humans and intelligent agents perceive, represent, reason, and decide
+            in spatial and urban environments. My research spans spatial cognition, urban AI,
+            representation learning, and collective behavior.
+          </p>
+          <p>
+            My work connects geospatial machine learning, behavioral decision modeling, causal
+            inference, and computational social science to build interpretable models of how people
+            and artificial agents perceive, choose, and coordinate in space.
+          </p>
         </div>
-        <p>
-          My work connects geospatial machine learning, behavioral decision modeling, causal
-          inference, and computational social science to build interpretable models of how people
-          and artificial agents perceive, choose, and coordinate in space.
-        </p>
       </section>
 
       <section class="section" id="research" aria-labelledby="research-title">
         <div class="section-heading">
-          <p class="section-kicker">Research</p>
-          <h2 id="research-title">Research Directions</h2>
+          <h2 id="research-title">Research Interests</h2>
         </div>
-        <div class="research-grid">
-          <article class="research-item">
-            <span>01</span>
+        <ul class="research-list">
+          <li class="research-item">
             <h3>Spatial Decision-Making & Brain-Inspired Spatial Intelligence</h3>
             <p>
               Modeling cognitive maps, route choice, revealed preferences, and spatial
               decision structures through inverse reinforcement learning and topology-aware AI.
             </p>
-          </article>
-          <article class="research-item">
-            <span>02</span>
+          </li>
+          <li class="research-item">
             <h3>Urban Complex Systems & Agentic Collective Intelligence</h3>
             <p>
               Designing agent-based and AI-native frameworks for mobility, economic behavior,
               dependency networks, and emergent coordination in cities.
             </p>
-          </article>
-          <article class="research-item">
-            <span>03</span>
+          </li>
+          <li class="research-item">
             <h3>Representation Learning for Spatial AI</h3>
             <p>
               Developing general spatial representations for AI systems, including n-dimensional
               positional encoding and geometry-aware embeddings across coordinates, images,
               videos, point clouds, and trajectories.
             </p>
-          </article>
-          <article class="research-item">
-            <span>04</span>
+          </li>
+          <li class="research-item">
             <h3>Spatial Reasoning & World Models</h3>
             <p>
               Building spatial world models for intelligent systems, enabling large language
               models to understand geographic knowledge, reason over spatial relations, and act
               within structured environments.
             </p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section publications-section" id="publications" aria-labelledby="publications-title">
+        <div class="section-heading publications-heading">
+          <h2 id="publications-title">Publications</h2>
+          <p class="contribution-note">* Equal contribution · † Corresponding author</p>
+        </div>
+        <div class="publication-list">
+          <article class="publication-item">
+            <a class="pub-thumbnail" href="assets/publications/nd-rope/vector.pdf" target="_blank" rel="noopener" aria-label="Open figure for nD-RoPE: A Generalized RoPE for n-Dimensional Position Embedding">
+              <img src="assets/publications/nd-rope/cover-web.jpg" alt="Research figure for nD-RoPE: A Generalized RoPE for n-Dimensional Position Embedding" loading="lazy" width="180" height="120" />
+            </a>
+            <div>
+              <h3>nD-RoPE: A Generalized RoPE for n-Dimensional Position Embedding</h3>
+              <p><strong>Boyang Li</strong>, Yulin Wu, Sizhe Xu, Nuoxian Huang, Zhonghang Yuan, Shangyi Guo, Shu Yang, and Takahiro Yabe.</p>
+              <p class="venue">ICML 2026</p>
+              <div class="publication-links">
+                <a class="paper-link" href="https://arxiv.org/abs/2606.12146">Paper</a>
+              </div>
+            </div>
+          </article>
+          <article class="publication-item">
+            <a class="pub-thumbnail" href="assets/publications/ldp-difftraj/cover.pdf" target="_blank" rel="noopener" aria-label="Open figure for LDP-DiffTraj: Diffusion Models under Local Differential Privacy for Personalized Human Mobility Trajectory Generation">
+              <img src="assets/publications/ldp-difftraj/cover-web.jpg" alt="Research figure for LDP-DiffTraj: Diffusion Models under Local Differential Privacy for Personalized Human Mobility Trajectory Generation" loading="lazy" width="180" height="120" />
+            </a>
+            <div>
+              <h3>LDP-DiffTraj: Diffusion Models under Local Differential Privacy for Personalized Human Mobility Trajectory Generation</h3>
+              <p><strong>Boyang Li</strong>, Shangyi Guo, Kota Tsubouchi, Toru Shimizu, Zhonghang Yuan, Joseph Y. J. Chow, and Takahiro Yabe.</p>
+              <p class="venue">ACM SIGSPATIAL 2026 · Accepted · Proceedings forthcoming</p>
+              <p class="paper-recognition"><strong>Best Paper Candidate</strong></p>
+              <div class="publication-links">
+                <a class="paper-link" href="https://doi.org/10.1145/3841645.3842943">DOI</a>
+              </div>
+            </div>
+          </article>
+          <article class="publication-item">
+            <a class="pub-thumbnail" href="assets/publications/behaviorally-grounding-llms/cover.pdf" target="_blank" rel="noopener" aria-label="Open figure for Behaviorally Grounding Large Language Models with Revealed Choices for Human Mobility Prediction">
+              <img src="assets/publications/behaviorally-grounding-llms/cover-web.jpg" alt="Research figure for Behaviorally Grounding Large Language Models with Revealed Choices for Human Mobility Prediction" loading="lazy" width="180" height="120" />
+            </a>
+            <div>
+              <h3>Behaviorally Grounding Large Language Models with Revealed Choices for Human Mobility Prediction</h3>
+              <p><strong>Boyang Li</strong>*, Sizhe Xu*, DongHak Lee, Shangyi Guo, Zhaonan Wang, and Takahiro Yabe.</p>
+              <p class="venue">ACM SIGSPATIAL 2026 · Accepted · Proceedings forthcoming</p>
+              <div class="publication-links">
+                <a class="paper-link" href="https://doi.org/10.1145/3841645.3842972">DOI</a>
+              </div>
+            </div>
+          </article>
+          <article class="publication-item">
+            <a class="pub-thumbnail" href="assets/publications/medirl-ic/cover.png" target="_blank" rel="noopener" aria-label="Open figure for Enhancing Pedestrian Route Choice Models Through Maximum-Entropy Deep Inverse Reinforcement Learning With Individual Covariates (MEDIRL-IC)">
+              <img src="assets/publications/medirl-ic/cover-web.jpg" alt="Research figure for Enhancing Pedestrian Route Choice Models Through Maximum-Entropy Deep Inverse Reinforcement Learning With Individual Covariates (MEDIRL-IC)" loading="lazy" width="180" height="120" />
+            </a>
+            <div>
+              <h3>Enhancing Pedestrian Route Choice Models Through Maximum-Entropy Deep Inverse Reinforcement Learning With Individual Covariates (MEDIRL-IC)</h3>
+              <p><strong>Boyang Li</strong> and Wenjia Zhang.</p>
+              <p class="venue">IEEE Transactions on Intelligent Transportation Systems · 2024</p>
+              <div class="publication-links">
+                <a class="paper-link" href="https://doi.org/10.1109/TITS.2024.3457680">Paper</a>
+              </div>
+            </div>
+          </article>
+          <article class="publication-item">
+            <a class="pub-thumbnail" href="assets/publications/gridpe/cover.png" target="_blank" rel="noopener" aria-label="Open figure for GridPE: A Grid Cell-Inspired Unified Position Embedding for Arbitrary-Dimensional Spaces">
+              <img src="assets/publications/gridpe/cover-web.jpg" alt="Research figure for GridPE: A Grid Cell-Inspired Unified Position Embedding for Arbitrary-Dimensional Spaces" loading="lazy" width="180" height="120" />
+            </a>
+            <div>
+              <h3>GridPE: A Grid Cell-Inspired Unified Position Embedding for Arbitrary-Dimensional Spaces</h3>
+              <p><strong>Boyang Li</strong>, Yulin Wu, Nuoxian Huang, and Wenjia Zhang.</p>
+              <p class="venue">arXiv · 2024 · precursor to nD-RoPE</p>
+              <div class="publication-links">
+                <a class="paper-link" href="https://arxiv.org/abs/2406.07049">Paper</a>
+              </div>
+            </div>
+          </article>
+          <article class="publication-item">
+            <a class="pub-thumbnail" href="assets/publications/asknearby/cover.pdf" target="_blank" rel="noopener" aria-label="Open figure for AskNearby: An LLM-Based Application for Neighborhood Information Retrieval and Personalized Cognitive-Map Recommendations">
+              <img src="assets/publications/asknearby/cover-web.jpg" alt="Research figure for AskNearby: An LLM-Based Application for Neighborhood Information Retrieval and Personalized Cognitive-Map Recommendations" loading="lazy" width="180" height="120" />
+            </a>
+            <div>
+              <h3>AskNearby: An LLM-Based Application for Neighborhood Information Retrieval and Personalized Cognitive-Map Recommendations</h3>
+              <p>Luyao Niu, Zhicheng Deng, <strong>Boyang Li</strong>†, Nuoxian Huang, Ruiqi Liu, and Wenjia Zhang.</p>
+              <p class="venue">ACM SIGSPATIAL GeoAI Workshop · 2025</p>
+              <div class="publication-links">
+                <a class="paper-link" href="https://doi.org/10.1145/3764912.3770813">Paper</a>
+              </div>
+            </div>
+          </article>
+          <article class="publication-item">
+            <a class="pub-thumbnail" href="assets/publications/trip-chain-decisions/cover.jpg" target="_blank" rel="noopener" aria-label="Open figure for Varying Built Environment Contexts and Trip Chain Decisions: A Multinomial-Choice Gradient Boosting Decision Trees Analysis">
+              <img src="assets/publications/trip-chain-decisions/cover-web.jpg" alt="Research figure for Varying Built Environment Contexts and Trip Chain Decisions: A Multinomial-Choice Gradient Boosting Decision Trees Analysis" loading="lazy" width="180" height="120" />
+            </a>
+            <div>
+              <h3>Varying Built Environment Contexts and Trip Chain Decisions: A Multinomial-Choice Gradient Boosting Decision Trees Analysis</h3>
+              <p>Wenjia Zhang, Daming Lu, Hongjin Liu, and <strong>Boyang Li</strong>.</p>
+              <p class="venue">Travel Behaviour and Society · 2024</p>
+              <div class="publication-links">
+                <a class="paper-link" href="https://doi.org/10.1016/j.tbs.2023.100684">Paper</a>
+              </div>
+            </div>
+          </article>
+          <article class="publication-item">
+            <a class="pub-thumbnail" href="assets/publications/plangpt/cover.png" target="_blank" rel="noopener" aria-label="Open figure for PlanGPT: Enhancing Urban Planning with Tailored Language Model and Efficient Retrieval">
+              <img src="assets/publications/plangpt/cover-web.jpg" alt="Research figure for PlanGPT: Enhancing Urban Planning with Tailored Language Model and Efficient Retrieval" loading="lazy" width="180" height="120" />
+            </a>
+            <div>
+              <h3>PlanGPT: Enhancing Urban Planning with Tailored Language Model and Efficient Retrieval</h3>
+              <p>He Zhu, Wenjia Zhang, Nuoxian Huang, <strong>Boyang Li</strong>, et al.</p>
+              <p class="venue">arXiv · 2024</p>
+              <div class="publication-links">
+                <a class="paper-link" href="https://arxiv.org/abs/2402.19273">Paper</a>
+              </div>
+            </div>
           </article>
         </div>
       </section>
 
       <section class="section education-section" id="education" aria-labelledby="education-title">
         <div class="section-heading">
-          <p class="section-kicker">Education</p>
-          <h2 id="education-title">Academic Training</h2>
+          <h2 id="education-title">Education</h2>
         </div>
-        <div class="education-list">
-          <article class="education-item">
-            <div class="school-mark">
-              <img src="assets/nyu.png" alt="New York University logo" />
-            </div>
-            <div>
-              <h3>New York University</h3>
-              <p>Ph.D. in Human-Centered Technology, Innovation & Design</p>
-              <span>2025-present</span>
-            </div>
-          </article>
-          <article class="education-item">
-            <div class="school-mark">
-              <img src="assets/pku.png" alt="Peking University logo" />
-            </div>
-            <div>
-              <h3>Peking University</h3>
-              <p>M.Sc. in Geography, Smart Cities and Big Data</p>
-              <span>2022-2025</span>
-            </div>
-          </article>
-          <article class="education-item">
-            <div class="school-mark">
-              <img src="assets/whu.png" alt="Wuhan University logo" />
-            </div>
-            <div>
-              <h3>Wuhan University</h3>
-              <p>B.Eng. in Remote Sensing Science and Technology</p>
-              <span>2018-2022</span>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="section publications-section" id="publications" aria-labelledby="publications-title">
-        <div class="section-heading publications-heading">
-          <div>
-            <p class="section-kicker">Publications</p>
-            <h2 id="publications-title">Publications</h2>
-          </div>
-          <p class="contribution-note">* Equal contribution · † Corresponding author</p>
-        </div>
-        <div class="publication-list">
-          <article class="publication-item">
-            <a class="pub-image-slot" href="assets/publications/nd-rope/vector.pdf" target="_blank" rel="noopener" aria-label="Open nD-RoPE research image">
-              <img src="assets/publications/nd-rope/cover-web.jpg" alt="nD-RoPE research image" />
-            </a>
-            <div>
-              <p class="venue">ICML 2026</p>
-              <h3>nD-RoPE: A Generalized RoPE for n-Dimensional Position Embedding</h3>
-              <p>Boyang Li, Yulin Wu, Sizhe Xu, Nuoxian Huang, Zhonghang Yuan, Shangyi Guo, Shu Yang, and Takahiro Yabe.</p>
-              <a class="paper-link" href="https://arxiv.org/abs/2606.12146">Paper</a>
-            </div>
-          </article>
-          <article class="publication-item">
-            <a class="pub-image-slot" href="assets/publications/ldp-difftraj/cover.pdf" target="_blank" rel="noopener" aria-label="Open LDP-DiffTraj research image">
-              <img src="assets/publications/ldp-difftraj/cover-web.jpg" alt="LDP-DiffTraj research image" />
-            </a>
-            <div>
-              <p class="venue">ACM SIGSPATIAL 2026 · Accepted · Proceedings forthcoming</p>
-              <h3>LDP-DiffTraj: Diffusion Models under Local Differential Privacy for Personalized Human Mobility Trajectory Generation</h3>
-              <p>Boyang Li, Shangyi Guo, Kota Tsubouchi, Toru Shimizu, Zhonghang Yuan, Joseph Y. J. Chow, and Takahiro Yabe.</p>
-              <a class="paper-link" href="https://doi.org/10.1145/3841645.3842943">DOI</a>
-            </div>
-          </article>
-          <article class="publication-item">
-            <a class="pub-image-slot" href="assets/publications/behaviorally-grounding-llms/cover.pdf" target="_blank" rel="noopener" aria-label="Open Behaviorally Grounding LLMs research image">
-              <img src="assets/publications/behaviorally-grounding-llms/cover-web.jpg" alt="Behaviorally Grounding LLMs research image" />
-            </a>
-            <div>
-              <p class="venue">ACM SIGSPATIAL 2026 · Accepted · Proceedings forthcoming</p>
-              <h3>Behaviorally Grounding Large Language Models with Revealed Choices for Human Mobility Prediction</h3>
-              <p>Boyang Li*, Sizhe Xu*, DongHak Lee, Shangyi Guo, Zhaonan Wang, and Takahiro Yabe.</p>
-              <a class="paper-link" href="https://doi.org/10.1145/3841645.3842972">DOI</a>
-            </div>
-          </article>
-          <article class="publication-item">
-            <a class="pub-image-slot" href="assets/publications/medirl-ic/cover.png" target="_blank" rel="noopener" aria-label="Open MEDIRL-IC research image">
-              <img src="assets/publications/medirl-ic/cover-web.jpg" alt="MEDIRL-IC research image" />
-            </a>
-            <div>
-              <p class="venue">IEEE Transactions on Intelligent Transportation Systems · 2024</p>
-              <h3>Enhancing Pedestrian Route Choice Models Through Maximum-Entropy Deep Inverse Reinforcement Learning With Individual Covariates (MEDIRL-IC)</h3>
-              <p>Boyang Li and Wenjia Zhang.</p>
-              <a class="paper-link" href="https://doi.org/10.1109/TITS.2024.3457680">Paper</a>
-            </div>
-          </article>
-          <article class="publication-item">
-            <a class="pub-image-slot" href="assets/publications/gridpe/cover.pdf" target="_blank" rel="noopener" aria-label="Open GridPE research image">
-              <img src="assets/publications/gridpe/cover-web.jpg" alt="GridPE research image" />
-            </a>
-            <div>
-              <p class="venue">arXiv · 2024 · precursor to nD-RoPE</p>
-              <h3>GridPE: A Grid Cell-Inspired Unified Position Embedding for Arbitrary-Dimensional Spaces</h3>
-              <p>Boyang Li, Yulin Wu, Nuoxian Huang, and Wenjia Zhang.</p>
-              <a class="paper-link" href="https://arxiv.org/abs/2406.07049">Paper</a>
-            </div>
-          </article>
-          <article class="publication-item">
-            <a class="pub-image-slot" href="assets/publications/asknearby/cover.pdf" target="_blank" rel="noopener" aria-label="Open AskNearby research image">
-              <img src="assets/publications/asknearby/cover-web.jpg" alt="AskNearby research image" />
-            </a>
-            <div>
-              <p class="venue">ACM SIGSPATIAL GeoAI Workshop · 2025</p>
-              <h3>AskNearby: An LLM-Based Application for Neighborhood Information Retrieval and Personalized Cognitive-Map Recommendations</h3>
-              <p>Luyao Niu, Zhicheng Deng, Boyang Li†, Nuoxian Huang, Ruiqi Liu, and Wenjia Zhang.</p>
-              <a class="paper-link" href="https://doi.org/10.1145/3764912.3770813">Paper</a>
-            </div>
-          </article>
-          <article class="publication-item">
-            <a class="pub-image-slot" href="assets/publications/trip-chain-decisions/cover.jpg" target="_blank" rel="noopener" aria-label="Open Trip Chain Decisions research image">
-              <img src="assets/publications/trip-chain-decisions/cover-web.jpg" alt="Trip Chain Decisions research image" />
-            </a>
-            <div>
-              <p class="venue">Travel Behaviour and Society · 2024</p>
-              <h3>Varying Built Environment Contexts and Trip Chain Decisions: A Multinomial-Choice Gradient Boosting Decision Trees Analysis</h3>
-              <p>Wenjia Zhang, Daming Lu, Hongjin Liu, and Boyang Li.</p>
-              <a class="paper-link" href="https://doi.org/10.1016/j.tbs.2023.100684">Paper</a>
-            </div>
-          </article>
-          <article class="publication-item">
-            <a class="pub-image-slot" href="assets/publications/plangpt/cover.png" target="_blank" rel="noopener" aria-label="Open PlanGPT research image">
-              <img src="assets/publications/plangpt/cover-web.jpg" alt="PlanGPT research image" />
-            </a>
-            <div>
-              <p class="venue">arXiv · 2024</p>
-              <h3>PlanGPT: Enhancing Urban Planning with Tailored Language Model and Efficient Retrieval</h3>
-              <p>He Zhu, Wenjia Zhang, Nuoxian Huang, Boyang Li, et al.</p>
-              <a class="paper-link" href="https://arxiv.org/abs/2402.19273">Paper</a>
-            </div>
-          </article>
-        </div>
+        <ul class="education-list">
+          <li class="education-item">
+            <strong>New York University</strong>, Ph.D. in Human-Centered Technology, Innovation & Design, 2025-present.
+          </li>
+          <li class="education-item">
+            <strong>Peking University</strong>, M.Sc. in Geography, Smart Cities and Big Data, 2022-2025.
+          </li>
+          <li class="education-item">
+            <strong>Wuhan University</strong>, B.Eng. in Remote Sensing Science and Technology, 2018-2022.
+          </li>
+        </ul>
       </section>
 
       <section class="section awards-section" id="awards" aria-labelledby="awards-title">
         <div class="section-heading">
-          <p class="section-kicker">Recognition</p>
           <h2 id="awards-title">Grants & Fellowships</h2>
         </div>
-        <div class="awards-list">
-          <div class="award">
-            <span>2025-2026</span>
-            <p>NYU Tandon School of Engineering Ph.D. Fellowship, fully funded</p>
-          </div>
-          <div class="award">
-            <span>2024</span>
-            <p>Yi-Innovator College Student Social Innovation Grant</p>
-          </div>
-          <div class="award">
-            <span>2024</span>
-            <p>Baidu Wenxin Cup Research Scholarship</p>
-          </div>
-          <div class="award">
-            <span>2024</span>
-            <p>Peking University Long Yuan Chang Ze Scholarship</p>
-          </div>
-          <div class="award">
-            <span>2023</span>
-            <p>Peking University Shenzhen Graduate School Tie Han Scholarship</p>
-          </div>
-          <div class="award">
-            <span>2019 · 2021</span>
-            <p>Wuhan University First-Class Scholarship</p>
-          </div>
-          <div class="award">
-            <span>2020</span>
-            <p>Wuhan University Hong Tu Chuang Zhan Scholarship</p>
-          </div>
-        </div>
+        <ul class="awards-list">
+          <li>NYU Tandon School of Engineering Ph.D. Fellowship, fully funded (2025-2026).</li>
+          <li>ACM SIGSPATIAL 2026 Student Travel Grant, $500 (2026).</li>
+          <li>Yi-Innovator College Student Social Innovation Grant (2024).</li>
+          <li>Baidu Wenxin Cup Research Scholarship (2024).</li>
+          <li>Peking University Long Yuan Chang Ze Scholarship (2024).</li>
+          <li>Peking University Shenzhen Graduate School Tie Han Scholarship (2023).</li>
+          <li>Wuhan University First-Class Scholarship (2019 · 2021).</li>
+          <li>Wuhan University Hong Tu Chuang Zhan Scholarship (2020).</li>
+        </ul>
       </section>
 
       <section class="section contact" id="contact" aria-labelledby="contact-title">
         <div>
-          <p class="section-kicker">Contact</p>
-          <h2 id="contact-title">Open to research conversations on spatial intelligence and urban AI.</h2>
+          <h2 id="contact-title">Contact</h2>
+          <p>Open to research conversations on spatial intelligence and urban AI.</p>
         </div>
         <div class="contact-links">
           <a href="mailto:boyang.li@nyu.edu">boyang.li@nyu.edu</a>
