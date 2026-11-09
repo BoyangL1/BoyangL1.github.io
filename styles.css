@@ -98,7 +98,6 @@ p {
 }
 
 .profile-links,
-.contact-links,
 .publication-links {
   display: flex;
   flex-wrap: wrap;
@@ -188,14 +187,6 @@ li:last-child {
   color: #8a3926;
 }
 
-.contact {
-  margin-top: 32px;
-}
-
-.contact p {
-  margin-bottom: 12px;
-}
-
 @media (max-width: 680px) {
   .profile-header {
     grid-template-columns: 170px minmax(0, 1fr);
@@ -229,8 +220,7 @@ li:last-child {
     margin-bottom: 24px;
   }
 
-  .section,
-  .contact {
+  .section {
     margin-top: 28px;
   }
 
